@@ -63,7 +63,7 @@ function love.resize(w, h)
     
 end
 
--- movimento dos travessões
+-- lógica do movimento da bola e colisão
 function love.update(dt)
 
 if gameState == 'serve' then
